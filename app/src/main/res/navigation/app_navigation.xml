@@ -11,5 +11,9 @@
     </fragment>
     <fragment android:id="@+id/navigation_Dependency_Fragment"
               android:name="id.qibee.navigationstepbystep.Navigation_Dependency_Fragment"
-              android:label="fragment_navigation__dependency" tools:layout="@layout/fragment_navigation__dependency"/>
+              android:label="fragment_navigation__dependency" tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/actionFragment" android:name="id.qibee.navigationstepbystep.ActionFragment"
+              android:label="fragment_action" tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/argReceiverFragment" android:name="id.qibee.navigationstepbystep.ArgReceiverFragment"
+              android:label="fragment_arg_receiver" tools:layout="@layout/fragment_home"/>
 </navigation>

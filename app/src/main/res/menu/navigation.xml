@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+    <!--blok di bawah ini auto generate dari Android Studio-->
+<!--
+<item
             android:id="@+id/navigation_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/title_home"/>
+            -->
+    <!--perlu diganti id sesuai nama layout fragment-->
+
+    <!--id sesuai dengan ID fragment yang ada di navigation graph . pada sample project ini sesuai dengan ID fragment pada app_navigation.xml-->
 
     <item
-            android:id="@+id/navigation_dashboard"
+            android:id="@+id/actionFragment"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Action"
+            android:orderInCategory = "100"
+    />
+
+    <item
+            android:id="@+id/navigation_Dependency_Fragment"
             android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="@string/title_dashboard"/>
+            android:orderInCategory = "100"
+
+            android:title="Dependency"/>
 
     <item
-            android:id="@+id/navigation_notifications"
+            android:id="@+id/argReceiverFragment"
             android:icon="@drawable/ic_notifications_black_24dp"
-            android:title="@string/title_notifications"/>
+            android:orderInCategory = "100"
+            android:title="Argument"/>
 
 </menu>
